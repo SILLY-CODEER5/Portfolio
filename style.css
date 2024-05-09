@@ -45,7 +45,7 @@ a {
   padding: 0 0.25rem;
   font-size: 2rem;
   text-decoration: none;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: color 0.5s ease-in-out, box-shadow 0.9s ease-in-out;
 }
 a:hover {
   box-shadow: inset 100rem 0 0 0 #54b3d6;
@@ -161,6 +161,8 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  scale: 200%;
+  border-radius: 50%;
 }
 
 .section__text {
